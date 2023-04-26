@@ -30,6 +30,6 @@
 		</p>
 	</div>
 </div>
-<div class="card m-10 xl:max-w-[30%]">
+<div class="card m-10 xl:max-w-[30%] drop-shadow-lg">
 	<img src={MyPhoto} alt="Nico's portrait" class="p-7 duration-100 ease-in-out hover:scale-105" />
 </div>
