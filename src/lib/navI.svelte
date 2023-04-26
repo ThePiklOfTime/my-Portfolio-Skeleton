@@ -14,7 +14,6 @@
 	}
 	function onClick(){
 		drawerStore.close()
-		drawerStore.update()
 	}
 	console.log("Hello world")
 </script>
