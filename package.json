@@ -27,16 +27,14 @@
 		"postcss": "latest",
 		"prettier": "latest",
 		"prettier-plugin-svelte": "latest",
+		"prettier-plugin-tailwindcss": "latest",
 		"svelte": "latest",
 		"svelte-check": "latest",
 		"tailwindcss": "latest",
 		"tslib": "latest",
 		"typescript": "latest",
 		"vite": "latest",
-		"prettier-plugin-tailwindcss": "latest"
+		"vite-imagetools": "^4.0.19"
 	},
-	"type": "module",
-	"dependencies": {
-		
-	}
+	"type": "module"
 }

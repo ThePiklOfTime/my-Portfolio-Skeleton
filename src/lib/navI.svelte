@@ -22,16 +22,23 @@
 	<!-- (optionally you can provde a label here) -->
 	<ul>
 		<li class={liClass}>
-			<span>
+			{#if !isRow}
+			<div class="hidden">
 				<a href="/" class={Active('/')} on:click={onClick}>
 					<span>Home</span>
 				</a>
-			</span>
-			<span>
+			</div>
+			{/if}
+			<div class="mx-4 my-6">
+				<a href="/" class={Active('/')} on:click={onClick}>
+					<span>Home</span>
+				</a>
+			</div>
+			<div class="mx-4 my-6">
 				<a href="/about" class={Active('/about')} on:click={onClick}>
 					<span>About</span>
 				</a>
-			</span>
+			</div>
 		</li>
 	</ul>
 </nav>
