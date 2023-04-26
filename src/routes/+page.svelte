@@ -30,7 +30,6 @@
 		</p>
 	</div>
 </div>
-<div class="card m-10">
-	<!-- svelte-ignore a11y-img-redundant-alt -->
-	<img src={MyPhoto} alt="Photo of me" class="p-7 duration-100 ease-in-out hover:scale-105" />
+<div class="card m-10 xl:max-w-[30%]">
+	<img src={MyPhoto} alt="Nico's portrait" class="p-7 duration-100 ease-in-out hover:scale-105" />
 </div>
