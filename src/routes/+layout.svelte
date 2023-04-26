@@ -5,9 +5,21 @@
 	import '@skeletonlabs/skeleton/styles/all.css';
 	// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
-	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
+	import { AppShell, AppBar, Drawer, drawerStore } from '@skeletonlabs/skeleton';
+	import type { DrawerSettings } from '@skeletonlabs/skeleton';
 	import NavI from '$lib/navI.svelte';
+	import hamburger from '$lib/hamburger.svelte';
+	import Hamburger from '$lib/hamburger.svelte';
+
+	function onClick() {
+		drawerStore.open()
+		console.log("Hello world")
+	}
 </script>
+
+<Drawer>
+	<NavI></NavI>
+</Drawer>
 
 <AppShell>
 	<svele:fragment slot="header">
@@ -18,6 +30,12 @@
 
 			<svelte:fragment slot="trail">
 				<NavI isRow={true} />
+
+				<button on:click={onClick}>
+					<div class="sm:hidden">
+						<Hamburger />
+					</div>
+				</button>
 			</svelte:fragment>
 		</AppBar>
 	</svele:fragment>

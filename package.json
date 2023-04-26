@@ -33,7 +33,7 @@
 		"tslib": "latest",
 		"typescript": "latest",
 		"vite": "latest",
-		"prettier-plugin-tailwindcss": "^0.2.7"
+		"prettier-plugin-tailwindcss": "latest"
 	},
 	"type": "module",
 	"dependencies": {
