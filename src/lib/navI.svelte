@@ -2,11 +2,13 @@
 	export let isRow = false;
 	let navClass = 'list-nav';
 	let liClass = 'gap-10';
+	let divColStyle ="mx-4 my-6"
 	import { page } from '$app/stores';
 	import { drawerStore } from '@skeletonlabs/skeleton';
 	if (isRow) {
 		navClass = 'list-nav max-sm:hidden';
 		liClass = 'flex flex-row gap-10';
+		divColStyle = '';
 	}
 	$: Active = (href: string) => (href === $page.url.pathname ? '!bg-primary-500' : '');
 	$: {
@@ -29,12 +31,12 @@
 				</a>
 			</div>
 			{/if}
-			<div class="mx-4 my-6">
+			<div class={divColStyle}>
 				<a href="/" class={Active('/')} on:click={onClick}>
 					<span>Home</span>
 				</a>
 			</div>
-			<div class="mx-4 my-6">
+			<div class={divColStyle}>
 				<a href="/about" class={Active('/about')} on:click={onClick}>
 					<span>About</span>
 				</a>
