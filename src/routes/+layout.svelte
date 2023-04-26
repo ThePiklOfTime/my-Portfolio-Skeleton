@@ -12,13 +12,13 @@
 	import Hamburger from '$lib/hamburger.svelte';
 
 	function onClick() {
-		drawerStore.open()
-		console.log("Hello world")
+		drawerStore.open();
+		console.log('Hello world');
 	}
 </script>
 
 <Drawer>
-	<NavI></NavI>
+	<NavI />
 </Drawer>
 
 <AppShell>
@@ -40,6 +40,10 @@
 		</AppBar>
 	</svele:fragment>
 	<svelte:fragment>
-		<slot />
+		<div
+			class="container mx-auto flex h-full items-center justify-center border-tertiary-700 bg-surface-700 p-4 max-xl:flex-col-reverse md:w-[90%] xl:min-w-[80%] xl:border-x"
+		>
+			<slot />
+		</div>
 	</svelte:fragment>
 </AppShell>
