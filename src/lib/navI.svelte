@@ -30,10 +30,13 @@
 					<span>Home</span>
 				</a>
 			</div>
+			<div class="h-5 mt-5">
+
+			</div>
 			{/if}
 			<div class={divColStyle}>
 				<a href="/" class={Active('/')} on:click={onClick}>
-					<span>Home</span>
+				<span>Home</span>
 				</a>
 			</div>
 			<div class={divColStyle}>
