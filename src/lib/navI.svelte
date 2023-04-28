@@ -11,13 +11,9 @@
 		divColStyle = '';
 	}
 	$: Active = (href: string) => (href === $page.url.pathname ? '!bg-primary-500' : '');
-	$: {
-		console.log($page.url.pathname)
-	}
 	function onClick(){
 		drawerStore.close()
 	}
-	console.log("Hello world")
 </script>
 
 <nav class={navClass}>

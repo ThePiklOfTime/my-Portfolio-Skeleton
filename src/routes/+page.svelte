@@ -1,15 +1,12 @@
 <script lang="ts">
 	// @ts-ignore
-	import MyPhoto from '$lib/assets/MyPhoto.jpg?width=500&format=webp';
-	let witdh:number = 0;
-	
-
-	
+	import MyPhoto from '$lib/assets/MyPhoto.jpg?width=400&format=webp';
+	let witdh: number = 0;
 </script>
 
-<svelte:window bind:innerWidth={witdh}></svelte:window>
+<svelte:window bind:innerWidth={witdh} />
 
-<div class="space-y-5 xl:w-1/2">
+<div class="space-y-5">
 	{#each { length: 0 } as hello}
 		<p>
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse minus porro beatae id assumenda
@@ -30,6 +27,6 @@
 		</p>
 	</div>
 </div>
-<div class="card m-10 xl:max-w-[30%] drop-shadow-lg">
+<div class="card m-10 max-w-[70%] shadow-lg shadow-surface-500 sm:min-w-[300px] sm:max-w-[60%] xl:max-w-[30%]">
 	<img src={MyPhoto} alt="Nico's portrait" class="p-7 duration-100 ease-in-out hover:scale-105" />
 </div>

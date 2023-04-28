@@ -8,12 +8,10 @@
 	import { AppShell, AppBar, Drawer, drawerStore } from '@skeletonlabs/skeleton';
 	import type { DrawerSettings } from '@skeletonlabs/skeleton';
 	import NavI from '$lib/navI.svelte';
-	import hamburger from '$lib/hamburger.svelte';
 	import Hamburger from '$lib/hamburger.svelte';
 
 	function onClick() {
 		drawerStore.open();
-		console.log('Hello world');
 	}
 </script>
 
@@ -41,7 +39,7 @@
 	</svele:fragment>
 	<svelte:fragment>
 		<div
-			class="container mx-auto flex h-full items-center justify-center border-tertiary-700 bg-surface-700 p-4 max-xl:flex-col-reverse md:w-[90%] xl:min-w-[80%] xl:border-x"
+			class="container mx-auto flex h-full items-center justify-center bg-surface-700	 p-4 max-lg:flex-col-reverse md:w-[90%] sm:border-x sm:border-secondary-500  lg:min-w-[80%]"
 		>
 			<slot />
 		</div>
