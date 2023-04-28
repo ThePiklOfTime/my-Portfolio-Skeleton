@@ -7,13 +7,6 @@
 <svelte:window bind:innerWidth={witdh} />
 
 <div class="space-y-5">
-	{#each { length: 0 } as hello}
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse minus porro beatae id assumenda
-			natus at error nemo veritatis eum sed tempora unde quo repellendus obcaecati nobis, fugit
-			harum facere!
-		</p>
-	{/each}
 	<div>
 		<h2 class="py-4">
 			<span class="text-6xl"> Olet saapunut Nicon portofilioon!</span>

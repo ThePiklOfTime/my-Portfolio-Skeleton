@@ -32,12 +32,17 @@
 			{/if}
 			<div class={divColStyle}>
 				<a href="/" class={Active('/')} on:click={onClick}>
-				<span>Home</span>
+				<span>Koti</span>
 				</a>
 			</div>
 			<div class={divColStyle}>
 				<a href="/about" class={Active('/about')} on:click={onClick}>
-					<span>About</span>
+					<span>Tietoja minusta</span>
+				</a>
+			</div>
+			<div class={divColStyle}>
+				<a href="/contact" class={Active('/contact')} on:click={onClick}>
+					<span>Yhteystiedot</span>
 				</a>
 			</div>
 		</li>
