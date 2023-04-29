@@ -39,9 +39,20 @@
 	</svele:fragment>
 	<svelte:fragment>
 		<div
-			class="container mx-auto flex h-full items-center justify-center bg-surface-700	 p-4 max-lg:flex-col-reverse md:w-[90%] sm:border-x sm:border-secondary-500  lg:min-w-[80%]"
+			class="container mx-auto flex h-full items-center justify-center bg-surface-700 p-4 max-lg:flex-col-reverse sm:border-x sm:border-secondary-500 md:w-[90%] lg:min-w-[80%]"
 		>
 			<slot />
 		</div>
+	</svelte:fragment>
+	<svelte:fragment slot="footer">
+		<footer class="bg-surface-700 w-screen h-">
+			<div class=" justify-center p-4">
+				<div class="flex flex-col gap-2 card-footer w-[80%] mx-auto p-4 text-center">
+					<span> puhelin: +358453171971 </span>
+					<span>github: <a href="https://github.com/ThePiklOfTime/">github</a></span>
+					<span>sähköposti: nicotolvanen@gmail.com</span>
+				</div>
+			</div>
+		</footer>
 	</svelte:fragment>
 </AppShell>

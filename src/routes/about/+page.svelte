@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<section class="flex-col">
+<section class="flex-col w-1/2  ">
 	<h2 class="mb-1">Tietoja minusta</h2>
     <br>
 	<p>

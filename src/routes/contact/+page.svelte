@@ -3,6 +3,11 @@
     Yhteystietoni
 </h2>
 
+<section>
 <p>
-    Puhelin
+    sähköposti: nicotolvanen@gmail.com
 </p>
+<p>
+    github: <a href="https://github.com/ThePiklOfTime/">link</a> 
+</p>
+</section>
