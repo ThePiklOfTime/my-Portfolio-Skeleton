@@ -45,7 +45,7 @@
 		</div>
 	</svelte:fragment>
 	<svelte:fragment slot="footer">
-		<footer class="container bg-surface-900 md:w-[90%] lg:min-w-[80%] mx-auto sm:border-x sm:border-secondary-500">
+		<footer class="container mx-auto flex items-center justify-center bg-surface-700 max-lg:flex-col-reverse sm:border-x sm:border-secondary-500 md:w-[90%] lg:min-w-[80%]">
 			<div class="">
 				<div class="flex flex-col gap-2 card-footer w-[50%] mx-auto p-4 text-center">
 					<span> puhelin: +358453171971 </span>

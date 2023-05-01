@@ -12,7 +12,7 @@
 			<span class="text-6xl"> Olet saapunut Nicon portofilioon!</span>
 		</h2>
 		<p>Täällä esittelen mitä koodiprojekteja olen tehnyt, ja kerron vähän itsestäni</p>
-		<br />
+		<br/>
 		<p>
 			Olen Joensuusta Lappeenrantaan muuttanut yliopisto-opiskelija. Opiskelen tietotekniikkaa
 			Lappeenranta-Lahti Teknillisessä Yliopistossa (LUT). Pidän alaa erittäin kiinnostavana ja
