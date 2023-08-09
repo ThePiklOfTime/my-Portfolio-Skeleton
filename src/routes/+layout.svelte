@@ -39,14 +39,14 @@
 	</svele:fragment>
 	<svelte:fragment>
 		<div
-			class="container mx-auto flex h-full items-center justify-center bg-surface-700 max-lg:flex-col-reverse sm:border-x sm:border-secondary-500 md:w-[90%] lg:min-w-[80%]"
+			class="container mx-auto flex h-full items-center justify-center bg-surface-700 max-lg:flex-col-reverse md:border-x md:border-secondary-500"
 		>
 			<slot />
 		</div>
 	</svelte:fragment>
 	<svelte:fragment slot="footer">
-		<footer class="container mx-auto flex items-center justify-center bg-surface-700 max-lg:flex-col-reverse sm:border-x sm:border-secondary-500 md:w-[90%] lg:min-w-[80%]">
-			<div class="">
+		<footer class="container mx-auto flex items-center justify-center bg-surface-700 max-lg:flex-col-reverse md:border-x md:border-secondary-500">
+			<div class="border-t border-secondary-500 w-full">
 				<div class="flex flex-col gap-2 card-footer w-[50%] mx-auto p-4 text-center">
 					<span> puhelin: +358453171971 </span>
 					<span>github: <a href="https://github.com/ThePiklOfTime/">github</a></span>
